@@ -1,0 +1,1 @@
+(function() {    var toc =  [{"name":"First Topic","type":"item","tilePath":"","url":"First_Topic.htm"},{"name":"Workshop","type":"item","tilePath":"","url":"Workshop.htm"},{"name":"Scope of this document","type":"item","tilePath":"","url":"assets/Scope_of_this_document.htm"}];    window.rh.model.publish(rh.consts('KEY_TEMP_DATA'), toc, { sync:true });    })();

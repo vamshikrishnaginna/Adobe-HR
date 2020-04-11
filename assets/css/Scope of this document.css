@@ -1,0 +1,119 @@
+p.Body {
+    margin-top: 3pt;
+    margin-bottom: 0;
+    text-align: justify;
+    font-family: Calibri;
+    font-size: 11pt;
+    line-height: 108%;
+    margin-left: 0;
+    margin-right: 0;
+    background: #FFFFFF;
+    font-style: normal;
+    font-weight: normal
+}
+ol.List0 {
+counter-reset: section01;
+list-style:none;
+padding-left: 40px;
+margin-left: 0px
+}
+ul.List1 {
+counter-reset: section11;
+list-style:none;
+padding-left: 40px;
+margin-left: 0px
+}
+p.ListParagraph {
+    margin-bottom: 0;
+    text-align: justify;
+    font-family: Calibri;
+    font-size: 11pt;
+    line-height: 108%;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    font-style: normal;
+    font-weight: normal
+}
+p.ListParagraph1 {
+    margin-bottom: 0;
+    text-align: justify;
+    font-family: Calibri;
+    font-size: 11pt;
+    line-height: 108%;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    font-style: normal;
+    font-weight: normal
+}
+table.NormalTable {
+    border-collapse: collapse;
+    margin-left: 0;
+    margin-bottom: .001pt
+}
+body {}
+ol.List0>li {
+ position: relative
+}
+ol.List0>li::before {
+counter-increment: section01;
+content:counter(section01,decimal)".";
+text-align: right;
+position: absolute;
+left: -44px;
+margin-right: 4px;
+width: 40px;
+overflow: hidden
+}
+ol.List0>li::before::before {
+width: 40px
+}
+ol.List0>li::before::before {
+margin-right: 4px
+}
+ol.List0>li::before::before {
+left: -44px
+}
+ol.List0>li::before::before {
+left: -44px
+}
+ol.List0>li::before::before {
+left: -44px
+}
+ol.List0>li::before::before {
+left: -44px
+}
+span { white-space: pre-wrap
+}
+ul.List1>li {
+ position: relative
+}
+ul.List1>li::before {
+counter-increment: section11;
+content:counter(bullet,disc);
+text-align: right;
+position: absolute;
+left: -44px;
+margin-right: 4px;
+width: 40px;
+overflow: hidden
+}
+ul.List1>li::before::before {
+width: 40px
+}
+ul.List1>li::before::before {
+margin-right: 4px
+}
+ul.List1>li::before::before {
+left: -44px
+}
+ul.List1>li::before::before {
+left: -44px
+}
+ul.List1>li::before::before {
+left: -44px
+}
+ul.List1>li::before::before {
+left: -44px
+}

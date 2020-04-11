@@ -1,0 +1,31 @@
+p.Subtitle {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: left;
+    background: white;
+    font-family: Roboto;
+    font-size: 12pt;
+    line-height: 108%;
+    margin-left: 0;
+    margin-right: 0;
+    color: #666666;
+    font-style: italic;
+    font-weight: normal
+}
+p.Title {
+    margin-top: 36pt;
+    line-height: 115.0%;
+    text-align: center;
+    background: white;
+    font-family: Roboto Slab;
+    font-size: 36pt;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: .001pt;
+    color: #ff5722;
+    font-style: normal;
+    font-weight: bold
+}
+body {}
+span { white-space: pre-wrap
+}
